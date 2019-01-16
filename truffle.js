@@ -10,7 +10,7 @@ module.exports = {
             provider: function() {
                 // in this part fill your mnemonic and the infura link
                 return new HDWalletProvider("my mnemonic were here",
-                    "https://rinkeby.infura.io/v3/c981e96afd4a4d03957176f4f23c2ab0");
+                    "https://rinkeby.infura.io/v3/my-infura-API");
             },
             network_id: 1
         },

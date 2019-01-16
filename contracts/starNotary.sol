@@ -4,7 +4,7 @@ import 'openzeppelin-solidity/contracts/token/ERC721/ERC721.sol';
 
 contract StarNotary is ERC721 {
 
-    string public constant name = "Abdullah's Token";
+    
 
 
     struct Star {
@@ -12,6 +12,7 @@ contract StarNotary is ERC721 {
     }
 
 //  Add a name and a symbol for your starNotary tokens
+    string public constant name = "Abdullah's Token";
     string public constant symbol = "ABT";
     uint8 public constant decimals = 18; 
 //
